@@ -1,0 +1,13 @@
+
+Leer de EOF
+
+- Descarga de datos (SSH,T,SST,wind), data cleaning
+- Capacitación en la técnica de clustering espectral
+- Aplicación e interpretación de clustering para primera variables
+- Resumen de la variable temporal en una métrica
+
+
+- Diagrama de flujo
+
+
+ 
