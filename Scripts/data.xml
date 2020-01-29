@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<productMetadataInfo msg="OK" code="0" lastUpdate="Not Available" url="http://localhost:8080/thredds/dodsC/global-reanalysis-phy-001-030-daily" title="global-reanalysis-phy-001-030-daily" id="global-reanalysis-phy-001-030-daily">
+    <timeCoverage msg="OK" code="0" end="2018-12-25T12:00:00.000Z" start="1993-01-01T12:00:00.000Z"/>
+    <availableTimes msg="OK" code="0">1993-01-01T12:00:00Z/2018-12-25T12:00:00Z/P1D</availableTimes>
+    <availableDepths msg="OK" code="0">0.49402;1.54138;2.64567;3.81949;5.07822;6.44061;7.92956;9.573;11.405;13.46714;15.81007;18.49556;21.59882;25.21141;29.44473;34.43415;40.34405;47.37369;55.76429;65.80727;77.85385;92.32607;109.7293;130.666;155.85069;186.1256;222.4752;266.04031;318.12741;380.21301;453.93771;541.08893;643.56677;763.33313;902.33929;1062.43994;1245.29102;1452.25098;1684.28406;1941.89294;2225.07788;2533.33594;2865.70288;3220.82007;3597.03198;3992.48389;4405.22412;4833.29102;5274.78418;5727.91699</availableDepths>
+    <geospatialCoverage msg="OK" code="0"/>
+    <variablesVocabulary msg="OK" code="0"/>
+    <variables msg="OK" code="0">
+        <variable name="bottomT" standardName="sea_water_potential_temperature_at_sea_floor" longName="Sea floor potential temperature" units="degrees_C" description="Sea floor potential temperature" code="0" msg="OK"/>
+        <variable name="mlotst" standardName="ocean_mixed_layer_thickness_defined_by_sigma_theta" longName="Density ocean mixed layer thickness" units="m" description="Density ocean mixed layer thickness" code="0" msg="OK"/>
+        <variable name="siconc" standardName="sea_ice_area_fraction" longName="Ice concentration" units="1" description="Ice concentration" code="0" msg="OK"/>
+        <variable name="sithick" standardName="sea_ice_thickness" longName="Sea ice thickness" units="m" description="Sea ice thickness" code="0" msg="OK"/>
+        <variable name="so" standardName="sea_water_salinity" longName="Salinity" units="1e-3" description="Salinity" code="0" msg="OK"/>
+        <variable name="thetao" standardName="sea_water_potential_temperature" longName="Temperature" units="degrees_C" description="Temperature" code="0" msg="OK"/>
+        <variable name="uo" standardName="eastward_sea_water_velocity" longName="Eastward velocity" units="m s-1" description="Eastward velocity" code="0" msg="OK"/>
+        <variable name="usi" standardName="eastward_sea_ice_velocity" longName="Sea ice eastward velocity" units="m s-1" description="Sea ice eastward velocity" code="0" msg="OK"/>
+        <variable name="vo" standardName="northward_sea_water_velocity" longName="Northward velocity" units="m s-1" description="Northward velocity" code="0" msg="OK"/>
+        <variable name="vsi" standardName="northward_sea_ice_velocity" longName="Sea ice northward velocity" units="m s-1" description="Sea ice northward velocity" code="0" msg="OK"/>
+        <variable name="zos" standardName="sea_surface_height_above_geoid" longName="Sea surface height" units="m" description="Sea surface height" code="0" msg="OK"/>
+    </variables>
+    <dataGeospatialCoverage msg="OK" code="0">
+        <axis msg="OK" code="0" upper="5727.9169921875" lower="0.4940249919891357421875" axisType="Height" description="Depth" units="m" name="depth"/>
+        <axis msg="OK" code="0" upper="90" lower="-80" axisType="Lat" description="Latitude" units="degrees_north" name="latitude"/>
+        <axis msg="OK" code="0" upper="179.9166717529296875" lower="-180" axisType="Lon" description="Longitude" units="degrees_east" name="longitude"/>
+        <axis msg="OK" code="0" upper="604692" lower="376956" axisType="Time" description="Time (hours since 1950-01-01)" units="hours since 1950-01-01 00:00:00" name="time"/>
+    </dataGeospatialCoverage>
+</productMetadataInfo>
