@@ -1,2 +1,2 @@
 # TDG
-Este es el trabajo de grado para mí pregrado
+En este repo aparece toda la información utilizada en la tesis de pregrado
