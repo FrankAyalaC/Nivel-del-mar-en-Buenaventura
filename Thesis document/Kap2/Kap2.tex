@@ -1,16 +1,63 @@
-\chapter{Cap\'{\i}tulo 1}
-Los cap\'{\i}tulos son las principales divisiones del documento. En estos, se desarrolla el tema del documento. Cada cap\'{\i}tulo debe corresponder a uno de los temas o aspectos tratados en el documento y por tanto debe llevar un t\'{\i}tulo que indique el contenido del cap\'{\i}tulo.\\
+\chapter{Metodología}
 
-Los t\'{\i}tulos de los cap\'{\i}tulos deben ser concertados entre el alumno y el director de la tesis  o trabajo de investigaci\'{o}n, teniendo en cuenta los lineamientos que cada unidad acad\'{e}mica brinda. As\'{\i} por ejemplo, en algunas facultades se especifica que cada cap\'{\i}tulo debe corresponder a un art\'{\i}culo cient\'{\i}fico, de tal manera que se pueda publicar posteriormente en una revista.\\
+\section{Zona de estudio}
 
-\section{Subt\'{\i}tulos nivel 2}
-Toda divisi\'{o}n o cap\'{\i}tulo, a su vez, puede subdividirse en otros niveles y s\'{o}lo se enumera hasta el tercer nivel. Los t\'{\i}tulos de segundo nivel se escriben con min\'{u}scula al margen izquierdo y sin punto final, est\'{a}n separados del texto o contenido por un interlineado posterior de 10 puntos y anterior de 20 puntos (tal y como se presenta en la plantilla).\\
+\section{Datos empleados}
+ Existen 2 fuentes de datos que se usaron en esta investigación
 
-\subsection{Subt\'{\i}tulos nivel 3}
-De la cuarta subdivisi\'{o}n en adelante, cada nueva divisi\'{o}n o \'{\i}tem puede ser se\~{n}alada con vi\~{n}etas, conservando el mismo estilo de \'{e}sta, a lo largo de todo el documento.\\
+a) Datos del mareógrafo: En la bahía de Buenaventura existe un mareógrafo que ha captado registros desde 1953 hasta 2014, a una resolución horaria. Debido a operaciones de mantenimiento existen diversos vacíos a lo largo del registro, las duraciones de estos vacíos son variadas, desde una hora hasta el año. Esto generó problemas que se explicarán más adelante
 
-Las subdivisiones, las vi\~{n}etas y sus textos acompa\~{n}antes deben presentarse sin sangr\'{\i}a y justificados.\\
+Los datos están disponibles en diferentes plataformas como tal y tal. El principio fundamental de un mareógrafo... Han habido tales correcciones (\textbf{CITAR})
 
-\begin{itemize}
-\item En caso que sea necesario utilizar vi\~{n}etas, use este formato (vi\~{n}etas cuadradas).
-\end{itemize}
+\section{Análsis exploratorio de los datos}
+
+\subsection{Análisis de la información del mareógrafo}
+
+La información de nivel del mar del mareógrafo de Buenaventura es fundamental para conocer el comportamiento en la Bahía durante eventos climáticos de importancia y que ocurren en la costa.
+
+El marea está dividida en dos grandes componentes: la marea astronómica y la marea meteorloógica. La marea astronómica es determiniística, es decir, en diferentes momentos se podrá conocer el aporte preciso de este factor a las mareas. Es determinado por la atracción gavitatoria en el sistema Tierra-Sol-Luna. La marea residual o meteorloǵica es más estocástica y se debe a fenómenos macro y microclimáticos que afectan el nivel
+
+La marea astronómica de una serie se obtiene con una técnica llamada descomposición armónica (\textbf{CITAR}), esta técnica descompone la señal de marea en diferentes señales (armónicos) que tienen una amplitud, periodo y fase asociados y que al final se suman para condensar una marea astronómica total. El aporte total de estos armónico es la marea debido a la fuerza de atracción gravitacional y se determina precisamente por el conocimiento de las órbitas y diversos movimientos astronómicos \textbf{CITAR}
+
+\textbf{HABLAR DE PORCENTAJE DE DATOS FALTANTES, USO DE OTRA LIBRERIA}
+
+La tabla 1 muestra los 10 armónicos más importantes, reconociendo su importancia en función de la amplitud que aporte a la onda de marea.
+
+Las principales componentes son: la principal lunar ($M_{2}$),la principal solar ($S_{2}$),la principal elíptica ($N_{2}$),la principal menor ($K_{2})$ y la principal medio-mayor ($K_{1}$); esto caracteriza la marea, según el criterio de \textbf{CITAR} 
+
+Los valores de las amplitudes son similares (¿Cuanto?) a los obtenidos en estudios previos de caracterización de la marea en Buenaventura \textbf{CITAR} 
+
+Con las componentes y su suma en todo el registro, se obtiene la marea astronómica. Dado que el interés de este estudio está en la marea meteorlógica (residual) se suprimen las variaciones debido a dichos efectos astronómicos. Esto resulta en una serie de marea que sólo es regulada por eventos climáticos
+
+\subsection{Análisis de la información de AVISO}
+
+\section{Variación del nivel del mar en eventos ENSO}
+
+Hay fenómenos macroclimáticos y ocales que cambian el nivel del mar tales como: deshielo glaciar, expansión térmica, oscilaciones naturales o régimen local de vientos. (\textbf{CITAR}) 
+
+Dada la ubicación de Buenaventura en el Pacífico Colombiano, se tiene la influencia de un fenómeno macroclimático que regula las dinámicas de interacción entre el oceáno y la atmósfera, a saber, el ENSO.
+
+El ENSO es.... debido al debilitamiento de los vientos alisios del este, el nivel del mar aumenta, puesto que masas de agua cálida son transportadas desde el Pacífico Oeste hasta el Pacífico Este.
+
+Para relacionar el efecto anterior se determinaron las sobrelevaciones del nivel del mar, calculando los valores máximos diarios del nivel a partir del registro de marea residual y se graficaron las fechas en las que se tuvo fases cálidas y frías del ENSO (El niño y la Niña), para determinar si son Niño o Niña se usaron dos índices macroclimáticos diferentes (el ONI y el MEI). Se suavizó el registro de sobrelevaciones en ventanas de 3 meses, con el objetivo de captar mejor las variaciones del nivel.
+
+
+
+
+%\begin{figure}
+%	\includegraphics[scale=0.7]{}
+%	\caption{Sobrelevaciones del nivel del mar en todas las fases del fenómeno ENSO}
+%	\ref{sob}
+%\end{figure}
+
+Basados en el registró del mareográfo se caracterizaron los diferentes fenómenos Niño/Niña que llegaron a Buenaventura, teniendo en cuenta las sobrelevaciones asociadas, su duración, las fechas en las que ocurrieron y su comportamiento temporal general.
+
+Hasta constituía el análisis exploratorio de los datos. 
+
+\section{Correlacion del nivel del mar con índices macrolimáticos}
+	
+La serie de sobrelevaciones se correlacionó con los índices climáticos para conocer...lo que me diga una correlación.
+
+\section{Funciones empíricas ortogonales}
+
+
