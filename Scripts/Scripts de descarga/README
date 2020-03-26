@@ -1,0 +1,6 @@
+Instrucciones para descarga con el bash
+
+0. Realizar los ajustes requeridos al archivo.sh
+1. Abrir la terminal (CTRL+T)
+2. Copiar la ruta de todo el archivo.sh, directamente desde el home
+3. Escribir "bash"+"path"

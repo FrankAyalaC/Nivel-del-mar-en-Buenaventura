@@ -4,7 +4,6 @@
 
 python -m motuclient --motu http://my.cmems-du.eu/motu-web/Motu --service-id SEALEVEL_GLO_PHY_CLIMATE_L4_REP_OBSERVATIONS_008_057-TDS --product-id dataset-duacs-rep-global-merged-twosat-phy-l4 --longitude-min -120 --longitude-max -74 --latitude-min -3 --latitude-max 8 --date-min "1993-01-01 00:00:00" --date-max "1994-01-01 00:00:00" --variable sla --variable adt --variable ugos --variable vgos --variable ugosa --variable vgosa --variable err --out-dir <OUTPUT_DIRECTORY> --out-name <OUTPUT_FILENAME> --user <USERNAME> --pwd <PASSWORD>'
 
-
 cd 
 
 source my_projects_dir/entorno_jup/bin/activate
