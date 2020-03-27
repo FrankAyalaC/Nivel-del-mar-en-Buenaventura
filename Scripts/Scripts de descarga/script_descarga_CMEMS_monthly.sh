@@ -23,7 +23,7 @@ OUTPUT_DIRECTORY="/home/franklin/Documentos/GitHub/TDG/Dataset/Glorys_CMEMS_Mont
 FILENAME="SSH"
 
 base=1993
-for i in {0..24..1} ; do
+for i in {0..6..1} ; do
 
     ini_data=$(date +"%F %T" --date "$a + $i years")
     fin_data=$(date +"%F %T" --date "$a + $i years +1 years")
