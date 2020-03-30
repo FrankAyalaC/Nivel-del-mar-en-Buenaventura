@@ -1,6 +1,7 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: TesisMSc.aux
+This is BibTeX, Version 0.99d (MiKTeX 2.9.7350)
+Capacity: max_strings=4000, hash_size=5000, hash_prime=4253
+The top-level auxiliary file: TesisMSc.aux
 A level-1 auxiliary file: HojaTitulo/HojaTituloMSc.aux
-A level-1 auxiliary file: Tab_Simbolos/TabSimbolosMSc.aux
 A level-1 auxiliary file: Kap1/Kap1.aux
 A level-1 auxiliary file: Kap2/Kap2.aux
 A level-1 auxiliary file: Kap3/Kap3.aux
@@ -9,10 +10,59 @@ A level-1 auxiliary file: Kap5/Kap5.aux
 A level-1 auxiliary file: Kap6/Kap6.aux
 A level-1 auxiliary file: Anexos/Anexos.aux
 The style file: plaindin_esp.bst
+Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: BibliMSc.bib
-Warning--empty edition in AG03p
-Warning--empty edition in AG08a
-Warning--empty edition in AG04p
-Warning--empty edition in AG09a
-Warning--empty note in AG52
-(There were 5 warnings)
+Warning--I didn't find a database entry for "AG01"
+Warning--I didn't find a database entry for "AG12"
+Warning--I didn't find a database entry for "AG52"
+Warning--I didn't find a database entry for "AG70"
+Warning--I didn't find a database entry for "AG08a"
+Warning--I didn't find a database entry for "AG09a"
+Warning--I didn't find a database entry for "AG36a"
+Warning--I didn't find a database entry for "AG01i"
+Warning--I didn't find a database entry for "AG03p"
+Warning--I didn't find a database entry for "AG04p"
+Warning--I didn't find a database entry for "AG02i"
+Warning--empty edition in Dronkers1975
+You've used 4 entries,
+            2720 wiz_defined-function locations,
+            673 strings with 5363 characters,
+and the built_in function-call counts, 2190 in all, are:
+= -- 240
+> -- 45
+< -- 82
++ -- 88
+- -- 17
+* -- 152
+:= -- 384
+add.period$ -- 5
+call.type$ -- 4
+change.case$ -- 15
+chr.to.int$ -- 0
+cite$ -- 5
+duplicate$ -- 51
+empty$ -- 138
+format.name$ -- 21
+if$ -- 408
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 7
+newline$ -- 28
+num.names$ -- 8
+pop$ -- 17
+preamble$ -- 1
+purify$ -- 15
+quote$ -- 0
+skip$ -- 109
+stack$ -- 0
+substring$ -- 218
+swap$ -- 17
+text.length$ -- 12
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 14
+warning$ -- 1
+while$ -- 23
+width$ -- 5
+write$ -- 56
+(There were 12 warnings)

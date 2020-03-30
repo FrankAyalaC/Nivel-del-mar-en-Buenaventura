@@ -1,28 +1,26 @@
 \contentsline {chapter}{\hbox to\@tempdima {\hfil }Agradecimientos}{\es@scroman {vii}}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Resumen}{\es@scroman {ix}}%
 \babel@toc {spanish}{}
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Lista de s\'{\i }mbolos}{\es@scroman {xiii}}%
-\contentsline {chapter}{\numberline {1}Introducci\'{o}n}{1}%
-\contentsline {chapter}{\numberline {2}Metodología}{3}%
-\contentsline {section}{\numberline {2.1}Zona de estudio}{3}%
-\contentsline {section}{\numberline {2.2}Datos empleados}{3}%
-\contentsline {section}{\numberline {2.3}Análsis exploratorio de los datos}{3}%
-\contentsline {subsection}{\numberline {2.3.1}Análisis de la información del mareógrafo}{3}%
-\contentsline {subsection}{\numberline {2.3.2}Análisis de la información de AVISO}{4}%
-\contentsline {section}{\numberline {2.4}Variación del nivel del mar en eventos ENSO}{4}%
-\contentsline {section}{\numberline {2.5}Correlacion del nivel del mar con índices macrolimáticos}{4}%
-\contentsline {section}{\numberline {2.6}Funciones empíricas ortogonales}{5}%
-\contentsline {chapter}{\numberline {3}Resultados}{6}%
-\contentsline {section}{\numberline {3.1}Ejemplos de citaciones bibliogr\'{a}ficas}{7}%
-\contentsline {section}{\numberline {3.2}Ejemplos de presentaci\'{o}n y citaci\'{o}n de figuras}{7}%
-\contentsline {section}{\numberline {3.3}Ejemplo de presentaci\'{o}n y citaci\'{o}n de tablas y cuadros}{8}%
-\contentsline {subsection}{\numberline {3.3.1}Consideraciones adicionales para el manejo de figuras y tablas}{9}%
-\contentsline {chapter}{\numberline {4}Cap\'{\i }tulo 3}{10}%
-\contentsline {chapter}{\numberline {5}Cap\'{\i }tulo ...}{11}%
-\contentsline {chapter}{\numberline {6}Conclusiones y recomendaciones}{12}%
-\contentsline {section}{\numberline {6.1}Conclusiones}{12}%
-\contentsline {section}{\numberline {6.2}Recomendaciones}{12}%
-\contentsline {chapter}{\numberline {A}Anexo: Nombrar el anexo A de acuerdo con su contenido}{13}%
-\contentsline {chapter}{\numberline {B}Anexo: Nombrar el anexo B de acuerdo con su contenido}{14}%
-\contentsline {chapter}{\numberline {C}Anexo: Nombrar el anexo C de acuerdo con su contenido}{15}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{17}%
+\contentsline {chapter}{\numberline {1}Introducci\'{o}n}{3}%
+\contentsline {chapter}{\numberline {2}Metodología}{5}%
+\contentsline {section}{\numberline {2.1}Zona de estudio}{5}%
+\contentsline {section}{\numberline {2.2}Datos empleados}{5}%
+\contentsline {section}{\numberline {2.3}Análsis exploratorio de los datos}{6}%
+\contentsline {subsection}{\numberline {2.3.1}Análisis de la información del mareógrafo}{6}%
+\contentsline {subsection}{\numberline {2.3.2}Análisis de la información de CMEMS}{7}%
+\contentsline {section}{\numberline {2.4}Caracterización del nivel del mar durante eventos ENSO}{7}%
+\contentsline {section}{\numberline {2.5}Correlacion del nivel del mar con índices macroclimáticos}{8}%
+\contentsline {section}{\numberline {2.6}Funciones empíricas ortogonales}{8}%
+\contentsline {chapter}{\numberline {3}Resultados}{9}%
+\contentsline {section}{\numberline {3.1}Ejemplos de citaciones bibliogr\'{a}ficas}{10}%
+\contentsline {section}{\numberline {3.2}Ejemplos de presentaci\'{o}n y citaci\'{o}n de figuras}{11}%
+\contentsline {section}{\numberline {3.3}Ejemplo de presentaci\'{o}n y citaci\'{o}n de tablas y cuadros}{12}%
+\contentsline {subsection}{\numberline {3.3.1}Consideraciones adicionales para el manejo de figuras y tablas}{13}%
+\contentsline {chapter}{\numberline {4}Cap\'{\i }tulo 3}{14}%
+\contentsline {chapter}{\numberline {5}Cap\'{\i }tulo ...}{15}%
+\contentsline {chapter}{\numberline {6}Conclusiones y recomendaciones}{16}%
+\contentsline {section}{\numberline {6.1}Conclusiones}{16}%
+\contentsline {section}{\numberline {6.2}Recomendaciones}{16}%
+\contentsline {chapter}{\numberline {A}Anexo: Nombrar el anexo A de acuerdo con su contenido}{17}%
+\contentsline {chapter}{\numberline {B}Anexo: Nombrar el anexo B de acuerdo con su contenido}{18}%
+\contentsline {chapter}{\numberline {C}Anexo: Nombrar el anexo C de acuerdo con su contenido}{19}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{21}%

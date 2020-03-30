@@ -3,58 +3,45 @@
 \section{Zona de estudio}
 
 \section{Datos empleados}
- Existen 2 fuentes de datos que se usaron en esta investigación
 
-a) Datos del mareógrafo: En la bahía de Buenaventura existe un mareógrafo que ha captado registros desde 1953 hasta 2014, a una resolución horaria. Debido a operaciones de mantenimiento existen diversos vacíos a lo largo del registro, las duraciones de estos vacíos son variadas, desde una hora hasta el año. Esto generó problemas que se explicarán más adelante
+a) Datos de mareógrafo: En el área de estudio se han captado registros del nivel del mar por un mareógrafo ubicado en UBiCACION.Este equipo radar consta de un transmisor que lanza un haz electromagnético con una frecuencia modulada hacía la superficie libre y bajo el efecto doppler determina la distancia existente entre el transmisor y la superficie libre. Los errores que se pueden obtener bajo este método son debidos a cambios en la temperatura en el aire, la interferencia de objetos en el haz e inclusive la acción de las olas \cite{UNESCO2016}. Este mareografo hace parte de la red de estaciones del nivel del mar creada por la UNESCO y la comisión oceanográfica intergubernamental y sus registros del nivel del mar están disponibles desde 1953 hasta 2014, a resolución horaria. Debido a operaciones de mantenimiento y reparación, existen datos faltantes a largo del registro y su longitud puede ser tanto de un día como de un año, estas intermitencias han generado problemas en el tratamiento de la información, los cuales se explicarán posteriormente. La información está disponible en la página web www.ioc-sealevelmonitoring.org.
 
-Los datos están disponibles en diferentes plataformas como tal y tal. El principio fundamental de un mareógrafo... Han habido tales correcciones (\textbf{CITAR})
+b) Datos de reanálisis: Diferentes centros de análisis de información meteorologíca y oceánica como el ECFMW y el CMEMS, desarrollan y ejecutan diferentes modelos para describir la evolución espacio-temporal de variables termodinámicas como temperatura, salinidad, concentración de hielo, nivel del mar, etc. CMEMS usó el modelo de circulación global oceánica NEMO en conjunto con técnicas de reanálisis para generar producto GLORYS12V1, allí se pueden obtener información del nivel del mar cubriendo el período de registro de datos altimétricos desde el lanzamiento de la misión TOPEX POSEIDON \cite{Fernandez2018}. La resolución espacial es de 1/12$^{\circ}$ x 1/12$^{\circ}$ y hay diferentes resoluciones temporales, de las cuales se elige la mensual. La región de descarga está comprendida entre -10 $^{\circ}$N y $^{\circ}$N y entre 140$^{\circ}$E y -80$^{\circ}$W y está disponible en la página web marine.copernicus.eu
 
 \section{Análsis exploratorio de los datos}
 
 \subsection{Análisis de la información del mareógrafo}
 
-La información de nivel del mar del mareógrafo de Buenaventura es fundamental para conocer el comportamiento en la Bahía durante eventos climáticos de importancia y que ocurren en la costa.
+El mareógrafo de Buenaventura está ubicado en una región cercana a la zona de estudio y sus registros se utilizan para conocer la evolución temporal del nivel del mar en la costa y el efecto de las fases cálidas y frías del ENSO en su variabilidad.
 
-El marea está dividida en dos grandes componentes: la marea astronómica y la marea meteorloógica. La marea astronómica es determiniística, es decir, en diferentes momentos se podrá conocer el aporte preciso de este factor a las mareas. Es determinado por la atracción gavitatoria en el sistema Tierra-Sol-Luna. La marea residual o meteorloǵica es más estocástica y se debe a fenómenos macro y microclimáticos que afectan el nivel
+La marea está dividida en dos componentes: marea astronómica y marea meteorológica. La marea astronómica se deriva de la atracción gravitatoria en el sistema Tierra-Sol-Luna y por lo tanto, es fácil precisar su aporte a la onda de marea en una región. Por otro lado, la marea meteorológica o residual se debe a fenómenos macro y microclimáticos que ocurren en escalas temporales diferentes y, por lo tanto, es más difícil de precisar.
 
-La marea astronómica de una serie se obtiene con una técnica llamada descomposición armónica (\textbf{CITAR}), esta técnica descompone la señal de marea en diferentes señales (armónicos) que tienen una amplitud, periodo y fase asociados y que al final se suman para condensar una marea astronómica total. El aporte total de estos armónico es la marea debido a la fuerza de atracción gravitacional y se determina precisamente por el conocimiento de las órbitas y diversos movimientos astronómicos \textbf{CITAR}
+La marea astronómica de una serie se obtiene con una técnica llamada descomposición armónica \cite{Dronkers1975}, esta técnica descompone la señal de marea en diferentes señales (componentes armónicas) que tienen amplitud, período y fase asociados, suficientes para explicar la atracción que sufre la tierra respecto a diferentes cuerpos celestes. Estas componentes armónicas en conjunto, explican la marea astronómica total, la cuál surge del desbalance entre la fuerza de atracción gravitacional entre la tierra y cuerpos celestes vecinos y la fuerza centrífuga que actúa en ella en sus diferentes órbitas de gravitación.
 
-\textbf{HABLAR DE PORCENTAJE DE DATOS FALTANTES, USO DE OTRA LIBRERIA}
+Existen herramientas computacionales que realizan la descomposición de la marea en armónicos, algunos de ellos son scripts de MATLAB o Python \cite{Pawlowicz2002}, para su implementación correcta no pueden existir muchos datos faltantes debido a que la identificación de la fase y amplitud de los armónicos no es precisa.
 
-La tabla 1 muestra los 10 armónicos más importantes, reconociendo su importancia en función de la amplitud que aporte a la onda de marea.
+Inicialmente, dado que se iba a usar la herramienta ttide, se desiste de usar todo el registro del mareógrafo por tener un ..\% de datos faltantes y subestimar la amplitud de los armónicos encontrados (ej: el armónico $M_{2}$ debería tener una amplitud de 150 cm, pero sólo reconoce 105 cm), como alternativa, se usan los 18.2 años más completos dentro de la serie, debido a que cada período de estos, la declinación lunar cumple un ciclo, mejor conocido como variación nodal y los efectos de la marea se repiten, por lo menos en las magnitudes más percepetible e importantes para la determinación de la marea astronómica. Esta medida tampoco permite una descomposición armónica precisa. La última opción es usar los 6 años de registro continuo con los que se cuenta y obtener el comportamiento de los armónicos para luego extrapolarlos para todo el registro, esto implicaba perder información de las componenetes que sólo ocurren en el largo plazo. Finalmentem, se conció una herramienta más precisa para realizar la descomposición armonica y más reciente, llamada PyTides.
 
-Las principales componentes son: la principal lunar ($M_{2}$),la principal solar ($S_{2}$),la principal elíptica ($N_{2}$),la principal menor ($K_{2})$ y la principal medio-mayor ($K_{1}$); esto caracteriza la marea, según el criterio de \textbf{CITAR} 
+Con la marea astronómica se obtiene la serie de marea residual, restándola de la serie medida por el mareógrafo.
 
-Los valores de las amplitudes son similares (¿Cuanto?) a los obtenidos en estudios previos de caracterización de la marea en Buenaventura \textbf{CITAR} 
+\textcolor{red}{Se calcula la serie mensual del mareografo realizando promedios en ventanas que se desplazan cada mes}
 
-Con las componentes y su suma en todo el registro, se obtiene la marea astronómica. Dado que el interés de este estudio está en la marea meteorlógica (residual) se suprimen las variaciones debido a dichos efectos astronómicos. Esto resulta en una serie de marea que sólo es regulada por eventos climáticos
+Se calculan las anomalías
 
-\subsection{Análisis de la información de AVISO}
+\subsection{Análisis de la información de CMEMS}
+Respecto a la información espacial, se obtiene una región costera de interés seleccionada entre ... y .. y ... y se promedia espacialmente la altura del nivel del mar para obtener una serie representativa para dicha región costera. Esta serie se compara con la serie mensual de los datos medidos por el mareógrafo.
 
-\section{Variación del nivel del mar en eventos ENSO}
+\textcolor{red}{Con el objetivo de visualizar espacialmente las sobrelevaciones del nivel del mar durante un año catalogado como Niño o Niña según el índice ONI, se grafica en un mapa de contorno, la altura del nivel del mar, Al tener mucha variación, se decide interpolar a una resolución con el fin de mejorar la visualización}
 
-Hay fenómenos macroclimáticos y ocales que cambian el nivel del mar tales como: deshielo glaciar, expansión térmica, oscilaciones naturales o régimen local de vientos. (\textbf{CITAR}) 
+Se calculan las anomalías
 
-Dada la ubicación de Buenaventura en el Pacífico Colombiano, se tiene la influencia de un fenómeno macroclimático que regula las dinámicas de interacción entre el oceáno y la atmósfera, a saber, el ENSO.
+\section{Caracterización del nivel del mar durante eventos ENSO}
 
-El ENSO es.... debido al debilitamiento de los vientos alisios del este, el nivel del mar aumenta, puesto que masas de agua cálida son transportadas desde el Pacífico Oeste hasta el Pacífico Este.
+La resolución de la serie residual o meteorológica del mareógrafo es muy alta para el análisis del comportamiento del nivel durante los eventos ENSO, por lo tanto, se decide calcular la envolvente diaria de la serie de marea,es decir, las valores del nivel máximos diarios o sobrelevaciones máximas diarias del registro. La serie de sobrelevaciones máximas diarias se grafica en conjunto con los períodos de tiempo dónde se presentaron fases cálidas y frías del ENSO seǵun el índice ONI y el índice MEI, con el objetivo de conocer su comportamiento durante esos meses. Se suavizó la serie de sobrelevaciones en ventanas de 90 días para captar mejor las variaciones del nivel del mar
 
-Para relacionar el efecto anterior se determinaron las sobrelevaciones del nivel del mar, calculando los valores máximos diarios del nivel a partir del registro de marea residual y se graficaron las fechas en las que se tuvo fases cálidas y frías del ENSO (El niño y la Niña), para determinar si son Niño o Niña se usaron dos índices macroclimáticos diferentes (el ONI y el MEI). Se suavizó el registro de sobrelevaciones en ventanas de 3 meses, con el objetivo de captar mejor las variaciones del nivel.
+Con la información del CMEMS, se grafica un diagrama de Hovmöller para conocer la evolución temporal de las sobrelevaciones del nivel del mar durante las fases cálidas y frías del ENSO y compararla con la información del mareógrafo. Se determina la duración y frecuencia de los eventos ENSO registrados, las épocas del año en las que se presentan y las sobrelevaciones máximas que pueden generar.
 
-
-
-
-%\begin{figure}
-%	\includegraphics[scale=0.7]{}
-%	\caption{Sobrelevaciones del nivel del mar en todas las fases del fenómeno ENSO}
-%	\ref{sob}
-%\end{figure}
-
-Basados en el registró del mareográfo se caracterizaron los diferentes fenómenos Niño/Niña que llegaron a Buenaventura, teniendo en cuenta las sobrelevaciones asociadas, su duración, las fechas en las que ocurrieron y su comportamiento temporal general.
-
-Hasta constituía el análisis exploratorio de los datos. 
-
-\section{Correlacion del nivel del mar con índices macrolimáticos}
+\section{Correlacion del nivel del mar con índices macroclimáticos}
 	
 La serie de sobrelevaciones se correlacionó con los índices climáticos para conocer...lo que me diga una correlación.
 
