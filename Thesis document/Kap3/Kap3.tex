@@ -1,12 +1,44 @@
 \chapter{Resultados}
 
-La tabla 1 muestra los 10 armónicos más importantes, reconociendo su importancia en función de la amplitud que aporte a la onda de marea.
+La descomposición armónica bajo el uso de la herramienta PyTides, permite determinar los armónicos que más aportan a la componente astronómica de la marea, reconociendo su importancia en función su la amplitud. A continuación, se presentan las siete más importantes y sus respectivas amplitudes
 
-Las principales componentes son: la principal lunar ($M_{2}$),la principal solar ($S_{2}$),la principal elíptica ($N_{2}$),la principal menor ($K_{2})$ y la principal medio-mayor ($K_{1}$); esto caracteriza la marea, según el criterio de \textbf{CITAR} 
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|}
+	\hline
+	Componente & Amplitud \\
+	\hline
+	M2      &  1.496 \\
+	S2      &  0.421 \\
+	N2      &  0.314 \\
+	K1      &  0.115 \\
+	K2      &  0.104 \\
+	Sa      &  0.074 \\
+	M4      &  0.065 \\
+	\hline
+\end{tabular}
+\caption{Principales 7 componentes de la marea astronómica}
+\label{table:componentes}
+\end{table}
 
-Los valores de las amplitudes son similares (¿Cuanto?) a los obtenidos en estudios previos de caracterización de la marea en Buenaventura \textbf{CITAR} 
+Según la tabla \ref{table:componentes}, las principales componentes son: principal lunar ($M_{2}$), principal solar ($S_{2}$), principal elíptica ($N_{2}$), principal menor ($K_{2})$ y principal medio-mayor ($K_{1}$); estas componentes y sus repectivos valores de amplitud son congruentes con los reportados en estudios anteriores \cite{Malikov2010}. Para clasificar el tipo de marea se calcula el coeficiente de Coutier (F) definido como:
 
-Los valores máximos diarios, traducidos como sobrelevaciones del nivel del mar o envolvente de la serie residual de marea, evidencian aumentos en las fases cálidas del ENSO y disminuciones en las fases frías
+\begin{equation}
+F=\frac{ K_{1}-O_{1}}{M_{2}-S_{2}}
+\end{equation}
+
+Dónde los símbolos de cada componente representan su respectiva amplitud 
+
+El coeficiente de Coutier, F, tiene un valor de 0.081, lo cual clasifica la marea como tipo \textbf{semidiurna} \cite{MolaresBabra2004}. Al obtener los armónicos y por tanto, la marea astronómica; se puede determinar la marea residual o meterológica.
+
+\textcolor{red}{IMAGEN CON LOS 3 TIPOS DE MAREA DONDE SE VEA BIEN LA ONDA}
+
+De la figura anterior, puede notarse una carrera de marea (diferencia de nivel entre la pleamar y la bajamar) cercana a los 4 metros, un valor característico en esta zona del Paćifico Colombiano. La serie residual de la marea (serie de tal color), llamada de ahora en adelante como serie de nivel del mar debido a fenómenos meteorológicos, tiene sobrelevaciones máximas diarias y la forma de determinarlas se determina a continuación:
+
+GRAFICAS CON SOBRELEVACION
+
+
+
 
 \begin{figure}[H]
 	\centering
@@ -14,6 +46,26 @@ Los valores máximos diarios, traducidos como sobrelevaciones del nivel del mar 
 	\caption{Sobrelevaciones del nivel del mar en la bahía de Buenaventura en diferentes eventos ENSOS. Las franjas rojas y azules representan fases cálidas y frías del ENSO (Eventos de Niño y Niña) }
 	\label{fig:sobrelev_ENSOS}
 \end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Existen varias normas para la citaci\'{o}n bibliogr\'{a}fica. Algunas \'{a}reas del conocimiento prefieren normas espec\'{\i}ficas para citar las referencias bibliogr\'{a}ficas en el texto y escribir la lista de bibliograf\'{\i}a al final de los documentos. Esta plantilla brinda la libertad para que el autor de la tesis  o trabajo de investigaci\'{o}n utilice la norma bibliogr\'{a}fica com\'{u}n para su disciplina. Sin embargo, se solicita que la norma seleccionada se utilice con rigurosidad, sin olvidar referenciar "todos" los elementos tomados de otras fuentes (referencias bibliogr\'{a}ficas, patentes consultadas, software empleado en el manuscrito, en el tratamiento a los datos y resultados del trabajo, consultas a personas (expertos o p\'{u}blico general), entre otros).\\

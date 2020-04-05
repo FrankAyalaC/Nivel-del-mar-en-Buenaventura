@@ -24,45 +24,45 @@ Warning--I didn't find a database entry for "AG03p"
 Warning--I didn't find a database entry for "AG04p"
 Warning--I didn't find a database entry for "AG02i"
 Warning--empty edition in Dronkers1975
-You've used 4 entries,
+You've used 7 entries,
             2720 wiz_defined-function locations,
-            673 strings with 5363 characters,
-and the built_in function-call counts, 2190 in all, are:
-= -- 240
-> -- 45
-< -- 82
-+ -- 88
-- -- 17
-* -- 152
-:= -- 384
-add.period$ -- 5
-call.type$ -- 4
-change.case$ -- 15
+            700 strings with 5797 characters,
+and the built_in function-call counts, 3663 in all, are:
+= -- 407
+> -- 66
+< -- 126
++ -- 133
+- -- 25
+* -- 261
+:= -- 630
+add.period$ -- 8
+call.type$ -- 7
+change.case$ -- 24
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 51
-empty$ -- 138
-format.name$ -- 21
-if$ -- 408
+cite$ -- 8
+duplicate$ -- 89
+empty$ -- 242
+format.name$ -- 30
+if$ -- 697
 int.to.chr$ -- 0
-int.to.str$ -- 4
-missing$ -- 7
-newline$ -- 28
-num.names$ -- 8
-pop$ -- 17
+int.to.str$ -- 7
+missing$ -- 13
+newline$ -- 48
+num.names$ -- 14
+pop$ -- 26
 preamble$ -- 1
-purify$ -- 15
+purify$ -- 24
 quote$ -- 0
-skip$ -- 109
+skip$ -- 169
 stack$ -- 0
-substring$ -- 218
-swap$ -- 17
-text.length$ -- 12
+substring$ -- 385
+swap$ -- 31
+text.length$ -- 20
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 14
+type$ -- 26
 warning$ -- 1
-while$ -- 23
-width$ -- 5
-write$ -- 56
+while$ -- 38
+width$ -- 8
+write$ -- 99
 (There were 12 warnings)

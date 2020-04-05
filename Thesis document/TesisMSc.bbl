@@ -14,17 +14,38 @@
 \newblock {En: }\emph{Copernicus Product User Manual}
 \newblock 4 (2018), Nr. April, p. 1--15
 
-\bibitem[3]{Pawlowicz2002}
+\bibitem[3]{Malikov2010}
+\textsc{M{\'{a}}likov}, Igor:
+\newblock {R{\'{e}}gimen De La Marea En Diferentes Puntos De Las Costas
+  Colombianas}.
+\newblock {En: }\emph{Ideam}
+\newblock 64 (2010), Nr. 6, p.~21. --
+\newblock ISBN 9780874216561
+
+\bibitem[4]{MolaresBabra2004}
+\textsc{{Molares Babra}}, Ricardo~J.:
+\newblock {Clasificaci{\'{o}}n e identificaci{\'{o}}n de las componentes de
+  marea del Caribe colombiano}.
+\newblock {En: }\emph{Bolet{\'{i}}n Cient{\'{i}}fico CIOH}
+\newblock  (2004), Nr. 22, p. 105--114. --
+\newblock ISSN 01200542
+
+\bibitem[5]{Montagut2012}
+\textsc{Montagut}, Eduardo~A.:
+\newblock {Zona costera en Colombia, qu{\'{e}} es?}
+\newblock {En: }\emph{Articulo Bolet{\'{i}}n Acinpa “Avante”}
+\newblock  (2012), p.~7
+
+\bibitem[6]{Pawlowicz2002}
 \textsc{Pawlowicz}, Rich ; \textsc{Beardsley}, Bob  ; \textsc{Lentz}, Steve:
 \newblock {Classical tidal harmonic analysis including error estimates in
   MATLAB using T TIDE {\$}}.
 \newblock
 \newblock 28 (2002), p. 929--937
 
-\bibitem[4]{UNESCO2016}
+\bibitem[7]{UNESCO2016}
 \textsc{of~UNESCO}, Intergovernmental Oceanographic~C.:
-\newblock {Con fines bibliogr{\'{a}}ficos este document debe ser citado como
-  sigue: Manual on Sea-level Measurements and Interpretation, Volume V: Radar
+\newblock {Manual on Sea-level Measurements and Interpretation, Volume V: Radar
   Gauges}.
 \newblock {En: }\emph{IOC Manuals and Guides No.14, vol. V}
 \newblock 5 (2016), Nr. 89, p. 104
