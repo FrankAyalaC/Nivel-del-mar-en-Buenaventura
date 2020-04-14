@@ -1,0 +1,36 @@
+\babel@toc {spanish}{}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Series de marea y sus componentes para un período de ejemplo.\relax }}{6}{figure.caption.5}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Series de sobrelevaciones y descensos máximos diarios del nivel del mar\relax }}{9}{figure.caption.6}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Serie en el dominio temporal y en el dominio espectral\relax }}{10}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Ejemplo de estructura de red neuronal (Tomado de Google Images)\relax }}{14}{figure.caption.9}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Serie de nivel del mar capturada por el mareógrafo de Buenaventura\relax }}{15}{figure.caption.10}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Sobrelevaciones y descensos mensuales del nivel del mar en la bahía de Buenaventura durante diferentes eventos ENSO. Las franjas rojas y azules representan fenómenos Niño y Niña respectivamente.\relax }}{19}{figure.caption.11}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Sobrelevaciones del nivel del mar en la bahía de Buenaventura vs índice oceánico del niño (ONI) \relax }}{20}{figure.caption.12}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Sobrelevaciones del nivel del mar Bajo diferentes duraciones de eventos ENSO\relax }}{21}{figure.caption.13}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Diagramas de caja y bigotes para las duraciones y sobrelevaciones máximas durante los eventos Niño desde 1953 hasta 2010\relax }}{22}{figure.caption.14}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Descensos del nivel del mar bajo diferentes duraciones de eventos Niña\relax }}{23}{figure.caption.15}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Diagramas de caja y bigotes para las duraciones y sobrelevaciones máximas durante los eventos Niña desde 1953 hasta 2010\relax }}{24}{figure.caption.16}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces El espectro de potencias de Fourier en el lado izquierdo de la figuro y la banda espectral de interés en el lado derecho\relax }}{25}{figure.caption.17}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Serie de nivel del mar sólo con la variabilidad comprendida entre 2-6 años\relax }}{25}{figure.caption.18}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Serie de nivel del mar sólo con la variabilidad comprendida entre 2-6 años\relax }}{26}{figure.caption.19}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Mapa de porcentaje de varianza\relax }}{27}{figure.caption.20}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Modo de oscilación espacial asociado a la primer componente principal\relax }}{27}{figure.caption.21}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Comparación de la primer componente principal y el índice ONI\relax }}{28}{figure.caption.22}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Diagrama de hovmoller en las longitudes para el nivel medio del mar durante el Niño (1997-1998)\relax }}{29}{figure.caption.23}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Diagrama de hovmoller en las longitudes para el nivel medio del mar durante la Niña (1998-2001)\relax }}{30}{figure.caption.24}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Selección de la zona costera de interés (panel superior) y su serie representativa del nivel del mar original y filtrada entre 2 y 6 años.\relax }}{31}{figure.caption.25}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Zona costera de interés}}}{31}{subfigure.15.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Serie de nivel del mar representativa de la zona}}}{31}{subfigure.15.2}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Mapas de correlación de Spearman para todas las variables predictoras\relax }}{32}{figure.caption.26}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Mapa de correlación de Spearman de nivel del mar con rezago +1}}}{32}{subfigure.16.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Mapa de correlación de Spearman con rezago +1, entre el nivel del mar en la costa y la temperatura}}}{32}{subfigure.16.2}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Mapa de correlación de Spearman con rezago +1, entre el nivel del mar en la costa y la velocidad longitudinal de las corrientes superficiales }}}{32}{subfigure.16.3}%
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Mapa de correlación de Spearman con rezago +1, entre el nivel del mar en la costa y la velocidad latitudinal de las corrientes superficiales}}}{32}{subfigure.16.4}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Estructura de la red neuronal artificial\relax }}{33}{figure.caption.27}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Comportamiento de la red en el entrenamiento y en la validación\relax }}{34}{figure.caption.28}%
+\addvspace {10\p@ }

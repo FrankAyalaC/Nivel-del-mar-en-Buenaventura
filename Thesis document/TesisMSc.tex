@@ -6,24 +6,31 @@
 
 \renewcommand{\tablename}{\textbf{Tabla}}
 \renewcommand{\figurename}{\textbf{Figura}}
+\renewcommand{\contentsname}{Contenido}
 \renewcommand{\listtablename}{Lista de Tablas}
 \renewcommand{\listfigurename}{Lista de Figuras}
-\renewcommand{\contentsname}{Contenido}
+
 
 
 %\newcommand{\clearemptydoublepage}{\newpage{\pagestyle{empty}\cleardoublepage}}
 \tableofcontents
 %\include{Tab_Simbolos/TabSimbolosMSc}
 %\include{Resumen}%\newcommand{\clearemptydoublepage}{\newpage{\pagestyle{empty}\cleardoublepage}}
+\listoffigures
+
+\listoftables
+
 \pagenumbering{arabic}
+
 \include{Kap1/Kap1}
+\include{Kap5/Kap5}
+\include{Kap4/Kap4}
 \include{Kap2/Kap2}
 \include{Kap3/Kap3}
-\include{Kap4/Kap4}
-\include{Kap5/Kap5}
 \include{Kap6/Kap6}
-\include{Anexos/Anexos}
+
+%\include{Anexos/Anexos}
 \addcontentsline{toc}{chapter}{\numberline{}Bibliograf\'{\i}a}
-\bibliographystyle{plaindin_esp}
+\bibliographystyle{apalike}
 \bibliography{BibliMSc}
 \end{document}

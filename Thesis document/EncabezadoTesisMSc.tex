@@ -15,17 +15,30 @@
 \usepackage{graphicx}
 \usepackage{lscape}
 \usepackage{tabularx}
-\usepackage{subfigure}
+\usepackage{subfig}
+\usepackage{float}
 \usepackage{longtable}
 \usepackage[usenames]{color}
 \usepackage{hyperref}
 \hypersetup{
 	colorlinks=true,
-	linkcolor=blue,
-	filecolor=magenta,      
+	linkcolor=black,
+	filecolor=black,      
 	urlcolor=blue,
+	citecolor=black
 }
 \urlstyle{same}
+
+\floatstyle{plaintop}
+\restylefloat{table}
+\usepackage[tableposition=top]{caption}
+
+\usepackage{natbib}
+
+%\renewcommand\theHsubfigure{\theHfigure.\arabic{subfigure}}
+
+
+
 
 
 \usepackage{ragged2e} %justificar
@@ -36,7 +49,7 @@
 
 
 \renewcommand{\theequation}{\thechapter-\arabic{equation}}
-\renewcommand{\thefigure}{\textbf{\thechapter-\arabic{figure}}}
+%\renewcommand{\thefigure}{\textbf{\thechapter-\arabic{figure}}}
 \renewcommand{\thetable}{\textbf{\thechapter-\arabic{table}}}
 
 
@@ -77,8 +90,8 @@
 
 
 %Trennungsliste
-\hyphenation {Reaktor-ab-me-ssun-gen Gas-zu-sa-mmen-set-zung
-Raum-gesch-win-dig-keit Durch-fluss Stick-stoff-gemisch
-Ad-sorp-tions-tem-pe-ra-tur Klein-schmidt
-Kohlen-stoff-Mole-kular-siebe Py-rolysat-aus-beu-te
-Trans-port-vor-gan-ge}
+%\hyphenation {Reaktor-ab-me-ssun-gen Gas-zu-sa-mmen-set-zung
+%Raum-gesch-win-dig-keit Durch-fluss Stick-stoff-gemisch
+%Ad-sorp-tions-tem-pe-ra-tur Klein-schmidt
+%Kohlen-stoff-Mole-kular-siebe Py-rolysat-aus-beu-te
+%Trans-port-vor-gan-ge}

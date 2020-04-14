@@ -1,53 +1,166 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{}
 
-\bibitem[1]{Dronkers1975}
-\textsc{Dronkers}, J.~J.:
-\newblock \emph{{Tidal Theory and Computations.}}
-\newblock ACADEMIC PRESS, INC., 1975. --
-\newblock  145--230 p.
-\newblock ISSN 0065--2768
+\bibitem[Barnard et~al., 2015]{Barnard2015}
+Barnard, P.~L., Short, A.~D., Harley, M.~D., Splinter, K.~D., Vitousek, S.,
+  Turner, I.~L., Allan, J., Banno, M., Bryan, K.~R., Doria, A., Hansen, J.~E.,
+  Kato, S., Kuriyama, Y., Randall-Goodwin, E., Ruggiero, P., Walker, I.~J., and
+  Heathfield, D.~K. (2015).
+\newblock {Coastal vulnerability across the Pacific dominated by El
+  Ni{\~{n}}o/Southern Oscillation}.
+\newblock {\em Nature Geoscience}, 8(10):801--807.
 
-\bibitem[2]{Fernandez2018}
-\textsc{Fernandez}, E ; \textsc{Lellouche}, J~M.:
+\bibitem[Cayan et~al., 2008]{Cayan2008}
+Cayan, D.~R., Bromirski, P.~D., Hayhoe, K., and Tyree, M. (2008).
+\newblock {Climate change projections of sea level extremes along the
+  California coast}.
+\newblock 87:57--73.
+
+\bibitem[Cazenave et~al., 2014]{Cazenave2014}
+Cazenave, A., Dieng, H.-b., Meyssignac, B., Schuckmann, K.~V., Decharme, B.,
+  and Berthier, E. (2014).
+\newblock {The rate of sea-level rise}.
+\newblock 4(May):358--361.
+
+\bibitem[Cazenave et~al., 2012]{Cazenave2012}
+Cazenave, A., Henry, O., Munier, S., Delcroix, T., Gordon, A.~L., Meyssignac,
+  B., Llovel, W., Palanisamy, H., and Becker, M. (2012).
+\newblock {Estimating ENSO Influence on the Global Mean Sea Level, 1993-2010}.
+\newblock {\em Marine Geodesy}, 35(SUPPL. 1):82--97.
+
+\bibitem[Cazenave et~al., 2008]{Cazenave2008}
+Cazenave, A., Lombard, A., and Llovel, W. (2008).
+\newblock {Present-day sea level rise: A synthesis}.
+\newblock {\em Comptes Rendus - Geoscience}, 340(11):761--770.
+
+\bibitem[Chang et~al., 2013]{Chang2013}
+Chang, Y.-t., Du, L., Zhang, S.-w., and Huang, P.-f. (2013).
+\newblock {Sea level variations in the tropical Pacific Ocean during two types
+  of recent El Ni{\~{n}}o events}.
+\newblock {\em Global and Planetary Change}, 108:119--127.
+
+\bibitem[Church and Gregory, 2019]{Church2019}
+Church, J.~A. and Gregory, J.~M. (2019).
+\newblock {Sea level change}.
+\newblock {\em Encyclopedia of Ocean Sciences}, pages 493--499.
+
+\bibitem[Correa and Gonzalez, 2000]{Correa2000}
+Correa, I.~D. and Gonzalez, J.~L. (2000).
+\newblock {Coastal erosion and village relocation : a Colombian case study}.
+\newblock 43:51--64.
+
+\bibitem[Delcroix et~al., 1994]{Delcroix1994}
+Delcroix, T., Boulanger, J.-p., Masia, F., and Menkes, C. (1994).
+\newblock {Geosat-derived sea level and surface current anomalies in the
+  equatorial Pacific during the 1986-1989 El Ni{\~{n}}o and La Ni{\~{n}}a}.
+\newblock 99(94).
+
+\bibitem[Dronkers, 1975]{Dronkers1975}
+Dronkers, J.~J. (1975).
+\newblock {\em {Tidal Theory and Computations.}}, volume~10.
+\newblock ACADEMIC PRESS, INC.
+
+\bibitem[Fedorov and Brown, 2019]{Fedorov2019}
+Fedorov, A.~V. and Brown, J.~N. (2019).
+\newblock {Equatorial waves}.
+\newblock {\em Encyclopedia of Ocean Sciences}, (2005):606--621.
+
+\bibitem[Fernandez and Lellouche, 2018]{Fernandez2018}
+Fernandez, E. and Lellouche, J.~M. (2018).
 \newblock {Product User Manual for the Global Ocean Physcal Reanalysis Product
   GLORYS12V1}.
-\newblock {En: }\emph{Copernicus Product User Manual}
-\newblock 4 (2018), Nr. April, p. 1--15
+\newblock {\em Copernicus Product User Manual}, 4(April):1--15.
 
-\bibitem[3]{Malikov2010}
-\textsc{M{\'{a}}likov}, Igor:
+\bibitem[Gill, 1983]{Gill1983}
+Gill, A.~E. (1983).
+\newblock {An Estimation of Sea-Level and Surface-Current Anomalies during the
+  1972 El Ni{\~{n}}o and Consequent Thermal Effects}.
+
+\bibitem[Gouirand and Moron, 2003]{Gouirand2003}
+Gouirand, I. and Moron, V. (2003).
+\newblock {VARIABILITY OF THE IMPACT OF EL NI NO – SOUTHERN OSCILLATION ON
+  SEA-LEVEL PRESSURE ANOMALIES OVER THE NORTH ATLANTIC IN}.
+\newblock 1566:1549--1566.
+
+\bibitem[Hecht-Nielsen, 1992]{HECHT-NIELSEN1992}
+Hecht-Nielsen, R. (1992).
+\newblock {\em {Theory of the Backpropagation Neural Network**Based on
+  “nonindent” by Robert Hecht-Nielsen, which appeared in Proceedings of the
+  International Joint Conference on Neural Networks 1, 593–611, June 1989.
+  {\textcopyright} 1989 IEEE.}}
+\newblock Number June 1989. Academic Press, Inc.
+
+\bibitem[Jes{\'{u}}s and D{\'{i}}az, 2005]{Jesus2005}
+Jes{\'{u}}s, L. and D{\'{i}}az, O. (2005).
+\newblock {Aplicaci{\'{o}}n de un Modelo Hidrodin{\'{a}}mico Bidimensional para
+  Describir las Corrientes y la Propagaci{\'{o}}n de la Onda de Marea en la
+  Bah{\'{i}}a de Buenaventura g}.
+\newblock (12):9--21.
+
+\bibitem[Lombard et~al., 2005]{Lombard2005}
+Lombard, A., Cazenave, A., {Le Traon}, P.~Y., and Ishii, M. (2005).
+\newblock {Contribution of thermal expansion to present-day sea-level change
+  revisited}.
+\newblock {\em Global and Planetary Change}, 47(1):1--16.
+
+\bibitem[Lund et~al., 2000]{Lund2000}
+Lund, R.~B., von Storch, H., and Zwiers, F.~W. (2000).
+\newblock {Statistical Analysis in Climate Research}.
+\newblock {\em Journal of the American Statistical Association}, 95(452):1375.
+
+\bibitem[M{\'{a}}likov, 2010]{Malikov2010}
+M{\'{a}}likov, I. (2010).
 \newblock {R{\'{e}}gimen De La Marea En Diferentes Puntos De Las Costas
   Colombianas}.
-\newblock {En: }\emph{Ideam}
-\newblock 64 (2010), Nr. 6, p.~21. --
-\newblock ISBN 9780874216561
+\newblock {\em Ideam}, 64(6):21.
 
-\bibitem[4]{MolaresBabra2004}
-\textsc{{Molares Babra}}, Ricardo~J.:
+\bibitem[{Molares Babra}, 2004]{MolaresBabra2004}
+{Molares Babra}, R.~J. (2004).
 \newblock {Clasificaci{\'{o}}n e identificaci{\'{o}}n de las componentes de
   marea del Caribe colombiano}.
-\newblock {En: }\emph{Bolet{\'{i}}n Cient{\'{i}}fico CIOH}
-\newblock  (2004), Nr. 22, p. 105--114. --
-\newblock ISSN 01200542
+\newblock {\em Bolet{\'{i}}n Cient{\'{i}}fico CIOH}, (22):105--114.
 
-\bibitem[5]{Montagut2012}
-\textsc{Montagut}, Eduardo~A.:
+\bibitem[Montagut, 2012]{Montagut2012}
+Montagut, E.~A. (2012).
 \newblock {Zona costera en Colombia, qu{\'{e}} es?}
-\newblock {En: }\emph{Articulo Bolet{\'{i}}n Acinpa “Avante”}
-\newblock  (2012), p.~7
+\newblock {\em Articulo Bolet{\'{i}}n Acinpa “Avante”}, page~7.
 
-\bibitem[6]{Pawlowicz2002}
-\textsc{Pawlowicz}, Rich ; \textsc{Beardsley}, Bob  ; \textsc{Lentz}, Steve:
-\newblock {Classical tidal harmonic analysis including error estimates in
-  MATLAB using T TIDE {\$}}.
-\newblock
-\newblock 28 (2002), p. 929--937
-
-\bibitem[7]{UNESCO2016}
-\textsc{of~UNESCO}, Intergovernmental Oceanographic~C.:
+\bibitem[of~UNESCO, 2016]{UNESCO2016}
+of~UNESCO, I. O.~C. (2016).
 \newblock {Manual on Sea-level Measurements and Interpretation, Volume V: Radar
   Gauges}.
-\newblock {En: }\emph{IOC Manuals and Guides No.14, vol. V}
-\newblock 5 (2016), Nr. 89, p. 104
+\newblock {\em IOC Manuals and Guides No.14, vol. V}, 5(89):104.
+
+\bibitem[Pawlowicz et~al., 2002]{Pawlowicz2002}
+Pawlowicz, R., Beardsley, B., and Lentz, S. (2002).
+\newblock {Classical tidal harmonic analysis including error estimates in
+  MATLAB using T TIDE {\$}}.
+\newblock 28:929--937.
+
+\bibitem[Schuremann, 1958]{Schuremann1958}
+Schuremann, P. (1958).
+\newblock {Manual of harmonic analysis and prediction of tides}.
+
+\bibitem[Soumya et~al., 2015]{Soumya2015}
+Soumya, M., Vethamony, P., and Tkalich, P. (2015).
+\newblock {Inter-annual sea level variability in the southern South China Sea}.
+\newblock {\em Global and Planetary Change}, 133:17--26.
+
+\bibitem[Valle-Levinson et~al., 2017]{Valle-Levinson2017}
+Valle-Levinson, A., Dutton, A., and Martin, J.~B. (2017).
+\newblock {Spatial and temporal variability of sea level rise hot spots over
+  the eastern United States}.
+\newblock {\em Geophysical Research Letters}, 44(15):7876--7882.
+
+\bibitem[Wang et~al., 2018]{Wang2018}
+Wang, L., Li, Q., Mao, X.-z., Bi, H., and Yin, P. (2018).
+\newblock {Interannual sea level variability in the Pearl River Estuary and its
+  response to El Ni{\~{n}}o – Southern Oscillation}.
+\newblock {\em Global and Planetary Change}, 162(January):163--174.
+
+\bibitem[Zhang and Church, 2012]{Zhang2012}
+Zhang, X. and Church, J.~A. (2012).
+\newblock {Sea level trends, interannual and decadal variability in the Pacific
+  Ocean}.
+\newblock {\em Geophysical Research Letters}, 39(21):1--8.
 
 \end{thebibliography}

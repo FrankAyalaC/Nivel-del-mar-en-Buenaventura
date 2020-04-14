@@ -3,66 +3,67 @@ Capacity: max_strings=4000, hash_size=5000, hash_prime=4253
 The top-level auxiliary file: TesisMSc.aux
 A level-1 auxiliary file: HojaTitulo/HojaTituloMSc.aux
 A level-1 auxiliary file: Kap1/Kap1.aux
-A level-1 auxiliary file: Kap2/Kap2.aux
-A level-1 auxiliary file: Kap3/Kap3.aux
-A level-1 auxiliary file: Kap4/Kap4.aux
 A level-1 auxiliary file: Kap5/Kap5.aux
+A level-1 auxiliary file: Kap4/Kap4.aux
+A level-1 auxiliary file: Kap2/Kap2.aux
 A level-1 auxiliary file: Kap6/Kap6.aux
-A level-1 auxiliary file: Anexos/Anexos.aux
-The style file: plaindin_esp.bst
-Reallocating 'singl_function' (item size: 4) to 100 items.
+The style file: apalike.bst
 Database file #1: BibliMSc.bib
-Warning--I didn't find a database entry for "AG01"
-Warning--I didn't find a database entry for "AG12"
-Warning--I didn't find a database entry for "AG52"
-Warning--I didn't find a database entry for "AG70"
-Warning--I didn't find a database entry for "AG08a"
-Warning--I didn't find a database entry for "AG09a"
-Warning--I didn't find a database entry for "AG36a"
-Warning--I didn't find a database entry for "AG01i"
-Warning--I didn't find a database entry for "AG03p"
-Warning--I didn't find a database entry for "AG04p"
-Warning--I didn't find a database entry for "AG02i"
-Warning--empty edition in Dronkers1975
-You've used 7 entries,
-            2720 wiz_defined-function locations,
-            700 strings with 5797 characters,
-and the built_in function-call counts, 3663 in all, are:
-= -- 407
-> -- 66
-< -- 126
-+ -- 133
-- -- 25
-* -- 261
-:= -- 630
-add.period$ -- 8
-call.type$ -- 7
-change.case$ -- 24
-chr.to.int$ -- 0
-cite$ -- 8
-duplicate$ -- 89
-empty$ -- 242
-format.name$ -- 30
-if$ -- 697
-int.to.chr$ -- 0
-int.to.str$ -- 7
-missing$ -- 13
-newline$ -- 48
-num.names$ -- 14
-pop$ -- 26
+Repeated entry---line 188 of file BibliMSc.bib
+ : @article{Gill1983
+ :                  ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in Cayan2008
+Warning--empty journal in Cazenave2014
+Warning--empty journal in Correa2000
+Warning--empty journal in Delcroix1994
+Warning--can't use both volume and number fields in Dronkers1975
+Warning--there's a number but no volume in Fedorov2019
+Warning--empty journal in Gouirand2003
+Warning--there's a number but no series in HECHT-NIELSEN1992
+Warning--empty journal in Jesus2005
+Warning--there's a number but no volume in Jesus2005
+Warning--there's a number but no volume in MolaresBabra2004
+Warning--empty journal in Pawlowicz2002
+You've used 28 entries,
+            1935 wiz_defined-function locations,
+            713 strings with 9608 characters,
+and the built_in function-call counts, 11461 in all, are:
+= -- 1112
+> -- 526
+< -- 19
++ -- 180
+- -- 180
+* -- 1035
+:= -- 2019
+add.period$ -- 83
+call.type$ -- 28
+change.case$ -- 228
+chr.to.int$ -- 28
+cite$ -- 40
+duplicate$ -- 395
+empty$ -- 752
+format.name$ -- 222
+if$ -- 2179
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 28
+newline$ -- 141
+num.names$ -- 84
+pop$ -- 189
 preamble$ -- 1
-purify$ -- 24
+purify$ -- 230
 quote$ -- 0
-skip$ -- 169
+skip$ -- 299
 stack$ -- 0
-substring$ -- 385
-swap$ -- 31
-text.length$ -- 20
+substring$ -- 796
+swap$ -- 34
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 26
-warning$ -- 1
-while$ -- 38
-width$ -- 8
-write$ -- 99
-(There were 12 warnings)
+type$ -- 164
+warning$ -- 12
+while$ -- 99
+width$ -- 0
+write$ -- 353
+(There was 1 error message)
